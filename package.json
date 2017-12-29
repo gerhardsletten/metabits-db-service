@@ -1,0 +1,21 @@
+{
+  "name": "metabits-db-service",
+  "main": "index.js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alfaprint/alfa-svg-service"
+  },
+  "homepage": "https://github.com/Alfaprint/alfa-svg-service",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.1",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.5"
+  }
+}
