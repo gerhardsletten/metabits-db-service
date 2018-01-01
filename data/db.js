@@ -7,7 +7,7 @@ module.exports = {
   navigationItems: [
     {
       id: 'navitem-2',
-      title: 'Hjem2',
+      title: 'Hjem',
       page_id: '/',
       navigation_id: 'primary'
     },

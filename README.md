@@ -15,3 +15,5 @@ Service should be up at localhost:3001
 `docker run -p 3310:3001 --restart=always -d metabits/db-serivce`
 
 Service should be up at localhost:3310
+
+docker system prune -a
