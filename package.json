@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Alfaprint/alfa-svg-service"
+    "url": "https://github.com/gerhardsletten/metabits-db-service"
   },
-  "homepage": "https://github.com/Alfaprint/alfa-svg-service",
+  "homepage": "https://github.com/gerhardsletten/metabits-db-service",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
