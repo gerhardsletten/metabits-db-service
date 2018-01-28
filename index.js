@@ -3,7 +3,9 @@ const db = require('./data/db')
 const express = require('express')
 const compression = require('compression')
 
-const port = parseInt(process.env.PORT, 10) || 3001
+console.log(jsonGraphQLServer)
+
+const port = parseInt(process.env.PORT, 10) || 3310
 
 const server = express()
 server.use(compression())

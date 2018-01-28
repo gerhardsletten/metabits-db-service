@@ -7,12 +7,12 @@ Microservice for content
 ```bash
 npm i && npm start
 ```
-Service should be up at localhost:3001
+Service should be up at localhost:3310
 
 ## Run with docker
 
 `docker build -t metabits/db-serivce .`
-`docker run -p 3310:3001 --restart=always -d metabits/db-serivce`
+`docker run -p 3310:3310 --restart=always -d metabits/db-serivce`
 
 Service should be up at localhost:3310
 
