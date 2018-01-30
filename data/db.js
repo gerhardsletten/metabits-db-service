@@ -48,7 +48,7 @@ module.exports = {
       id: '/kontakt-oss',
       title: 'Om Metabits',
       lead: 'Vi i Metabits designer og utvikler nettsider, mobile løsninger og applikasjoner til nett. Vi leverer produkter til både små og store virksomheter. Gjennom dialog og et nært samarbeid finner vi veien til de beste løsningene for hver enkelt kunde.',
-      content: '## Vi leverer kvalitet\n\nVårt fokus er å holde et konkurransedyktig prisnivå uten å kompromisse på kvaliteten. Uansett om prosjektet er stort eller lite, mener vi at et godt sluttresultat bare kan oppnås ved kvalitet i alle ledd i arbeidet.\n\n## Tett samarbeid for best mulig produkt\n\nEt godt samarbeid er alfa og omega for å utvikle akkurat de produktene dere ønsker dere. Deres kjennskap til målgruppe, bransje og konkurrenter er like viktig som våre kunnskaper om design og teknologi. Hvis avdelingene i virksomheten som senere skal bruke løsningen, blir involvert i prosjektet fra starten, skaper det både engasjement, eierskap og høy kompetanse.\n\n## Vi kan nettsider og applikasjoner!\n\nVi kjenner eZ Publish og WordPress ut og inn. Vi skriver web applikasjoner i CakePHP og utvikler applikasjoner til iPhone og iPad i Objective-C. Vi har også høy kompetanse innen HTML5 og webteknologi, som spiller en viktig rolle i nesten alt vi gjør.\n\n*Ta gjerne kontakt for et hyggelig samarbeid!*',
+      content: '## Vi leverer kvalitet\n\nVårt fokus er å holde et konkurransedyktig prisnivå uten å kompromisse på kvaliteten. Uansett om prosjektet er stort eller lite, mener vi at et godt sluttresultat bare kan oppnås ved kvalitet i alle ledd i arbeidet.\n\n## Tett samarbeid for best mulig produkt\n\nEt godt samarbeid er alfa og omega for å utvikle akkurat de produktene dere ønsker dere. Deres kjennskap til målgruppe, bransje og konkurrenter er like viktig som våre kunnskaper om design og teknologi. Hvis avdelingene i virksomheten som senere skal bruke løsningen, blir involvert i prosjektet fra starten, skaper det både engasjement, eierskap og høy kompetanse.\n\n## Vi kan nettsider og applikasjoner!\n\nVi kjenner eZ Publish og WordPress ut og inn. Vi skriver web applikasjoner i CakePHP og utvikler applikasjoner til iPhone og iPad i Objective-C. Vi har også høy kompetanse innen HTML5 og webteknologi, som spiller en viktig rolle i nesten alt vi gjør.\n\n*[Ta gjerne kontakt](mailto:gerhard@metabits.no) for et hyggelig samarbeid!*',
       type: 'contact'
     },
     {
@@ -177,7 +177,7 @@ module.exports = {
       title: 'NodeJS',
       subTitle: 'Et populært kryssplatform-rammeverk for nettsider og backend-applikasjoner',
       lead: 'NodeJS er en effektivt og raskt versjon av javascript-runtime som kan brukes på servere. Dette gjør at den kan håndtere høyere belastning – samtidig som den bruker færre ressurser enn andre systemer.',
-      image: 'https://cms.metabits.no/wp-content/uploads/2018/01/node-js-logo.svg',
+      image: 'https://s3.eu-central-1.amazonaws.com/metabits-static/tech/node-js-logo.svg',
       content: 'I motsetning til andre systemer som bruker tid og minne for å håndtere oppgaver over flere parallelle prosesser, så kjører Node i en tråd, men bruker et tilbakekall for å si ifra når en oppgave er ferdig. Dette gjør at økt trafikk og belastning ikke låser unødvendige ressurser, samtidig som den enkelt kan skalere opp til antall kjerner som er tilgjennelig på maskinvaren.\n\nNodeJS brukes typisk for utvikling av webservices som skal levere data til eksterne mottakere, egne frontend-applikasjoner og som server-delen i webapplikasjoner som trenger serverside-rendering for SEO og raskest mulig initiell første-visning.',
       type: 'tech'
     },
@@ -186,7 +186,7 @@ module.exports = {
       title: 'React JS',
       subTitle: 'Visnings-rammeverk for moderne applikasjoner',
       lead: 'ReactJS ble utviklet av Facebook for å løse de utfordringene en nettapplikajson vil måte på etterhvert som størrelse og kompleksitet øker. Og den løser dette gjennom å selv ta hånd om hvilke deler av grensesnittet i applikasjonen som trenger å oppdateres og hvordan dette kan gjøres mest effektivt i brukerens nettleser.',
-      image: 'https://cms.metabits.no/wp-content/uploads/2018/01/react-js-logo.svg',
+      image: 'https://s3.eu-central-1.amazonaws.com/metabits-static/tech/react-js-logo.svg',
       content: 'En utbredt måte å løse applikasjoner på nå for tiden er at man har en frontend applikasjon som har som ansvar å vise/interaktere med sluttbruker og et backend API som snakker med de underliggende tjenestene som applikasjonen har behov for for å hente / sende data til. Dette gir sømløs opplevelse for bruker, samtidig som backend kan kobles opp mot ulike tjenester, databaser og verktøy eller som egner seg best for å håndtere den delen av data-behovet en applikasjon har.',
       type: 'tech'
     },
@@ -195,7 +195,7 @@ module.exports = {
       title: 'WordPress',
       subTitle: 'Den populære publiseringsløsningen med mange muligheter',
       lead: 'Fra den ble lansert som et blogverktøy på tidlig 2000-tallet, har den utviklet seg til å bli en fullblods publiseringsløsning, som gjennom en plugin-arkitektur og et malsystem åpner opp for skreddersydde løsninger som krever lite ressurser og er enkle å bruke.',
-      image: 'https://cms.metabits.no/wp-content/uploads/2018/01/wordpress.svg',
+      image: 'https://s3.eu-central-1.amazonaws.com/metabits-static/tech/wordpress.svg',
       content: '## Unike Wordpress maler og plugins\n\nGjennom et fleksibelt malsystem utvikler vi skreddersydde designmaler hvor alt er redigerbart via det brukervennlige grensesnittet i Wordpress. Behov for spesiell funksjonalitet kan enten løses ved at dette utvikles direkte inne i malen eller et Wordpress-plugin som kan brukes i alle typer maler.\n\n## Wordpress MU - flere nettsider i én\n\nWordpress MU - flerbrukerversjonen av Wordpress lar dere opprette flere uavhenging nettsider på et domene. Gjør det enkelt å opprette f eks kampanjesider og lignende underlagt deres hovednettside.\n\n## Fordeler med Wordpress\n\n*   Kjent for sitt enkle og brukervennlig grensesnitt demokratiserer arbeidet med innholdet på nettsiden\n*   En av de mest utbredte plattformene gjør at det finnes en mengde 3 parts innstikk som gir siden utvidet funksjonalitet\n*   En god plugin-arkitektur gjør løsningen velegnet for spesial-utvikling og annen skreddersøm\n*   Ut av boksen veldig gode verktøy for å publisere innlegg, sider og kommentarer',
       type: 'tech'
     }
@@ -205,7 +205,7 @@ module.exports = {
       id: 'banner-1',
       title: 'Utvikling av nettsider og applikasjoner',
       lead: 'Planlegger dere en ny nettside eller et redesign av den eksisterende? Ta kontakt for å se hva vi kan gjøre!',
-      image: 'https://cms.metabits.no/wp-content/uploads/2018/01/banner-home-min.jpg',
+      image: 'https://s3.eu-central-1.amazonaws.com/metabits-static/banner/home.jpg',
       linkText: 'Se referanser',
       uri: '/referanser'
     }
