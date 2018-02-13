@@ -124,7 +124,7 @@ module.exports = {
       lead: 'Ordnett er en tjeneste for digitale ordbøker for Kunnskapsforlaget. Nettsidene deres er en moderne javascript-applikasjon skrevet i ReactJS som via sitt backend kommuniserer med deres egen søketjeneste og deres CMS for sideinnhold for de forskjellige undersidene deres.',
       link: 'https://www.ordnett.no/',
       type: 'portfolio',
-      image: 'https://s3.eu-central-1.amazonaws.com/metabits-static/portfolio/large/ordnett-nettside.jpg'
+      image: '/aws-bucket/portfolio/large/ordnett-nettside.jpg'
     },
     {
       id: '/referanser/gyldendal',
@@ -132,7 +132,7 @@ module.exports = {
       lead: 'Gyldendal er et av norges ledende forlag innen skjønn, fag og undervisningslitteratur. Sidene deres ble skrevet om med komponent-biblioteket Bootstrap som base for en mest mulig effektiv omskriving til responsive nettsider.',
       link: 'http://www.gyldendal.no/',
       type: 'portfolio',
-      image: 'https://s3.eu-central-1.amazonaws.com/metabits-static/portfolio/large/gyldendal-nettside.jpg'
+      image: '/aws-bucket/portfolio/large/gyldendal-nettside.jpg'
     },
     {
       id: '/referanser/navnelapper',
@@ -140,7 +140,7 @@ module.exports = {
       lead: 'Frontend og javascript koding av nettløsningen til Navnelapper, hvor man på en enkel måte kan lage fargerike og flotte navnelapper som festes på tøy og andre tekstiler.',
       link: 'https://www.navnelapper.no/',
       type: 'portfolio',
-      image: 'https://s3.eu-central-1.amazonaws.com/metabits-static/portfolio/large/navnelapper-nettside.jpg'
+      image: '/aws-bucket/portfolio/large/navnelapper-nettside.jpg'
     },
     {
       id: '/referanser/bokklubben',
@@ -148,7 +148,7 @@ module.exports = {
       lead: 'Utvikling av mobil app for iOS og Android hvor medlemmer i Bokklubben kan handle produkter, avbestille medlemsbok og lese e-bøker.',
       link: 'https://www.bokklubben.no/',
       type: 'portfolio',
-      image: 'https://s3.eu-central-1.amazonaws.com/metabits-static/portfolio/large/bokklubben-app.jpg'
+      image: '/aws-bucket/portfolio/large/bokklubben-app.jpg'
     },
     {
       id: '/referanser/elevforlaget',
@@ -156,7 +156,7 @@ module.exports = {
       lead: 'ReactJS applikasjon for Elevforlaget hvor man kan finne og lese e-bøker publisert av elver som deltar i aksjonens opplegg for skoler.',
       link: 'http://www.elevforlaget.no/',
       type: 'portfolio',
-      image: 'https://s3.eu-central-1.amazonaws.com/metabits-static/portfolio/large/elevforlaget-leser-app.jpg'
+      image: '/aws-bucket/portfolio/large/elevforlaget-leser-app.jpg'
     },
     {
       id: '/referanser/leseskogen',
@@ -164,7 +164,7 @@ module.exports = {
       lead: 'Morsom nettside for elever i 1. og 2. klasse hvor de kan dele sine favorittbøker med dyrene i Leseskogen. Foreningen Les er avsender.',
       link: 'http://leseskogen.no/',
       type: 'portfolio',
-      image: 'https://s3.eu-central-1.amazonaws.com/metabits-static/portfolio/large/leseskogen-nettside.jpg'
+      image: '/aws-bucket/portfolio/large/leseskogen-nettside.jpg'
     },
     {
       id: '/teknologier',
@@ -177,7 +177,7 @@ module.exports = {
       title: 'NodeJS',
       subTitle: 'Et populært kryssplatform-rammeverk for nettsider og backend-applikasjoner',
       lead: 'NodeJS er en effektivt og raskt versjon av javascript-runtime som kan brukes på servere. Dette gjør at den kan håndtere høyere belastning – samtidig som den bruker færre ressurser enn andre systemer.',
-      image: 'https://s3.eu-central-1.amazonaws.com/metabits-static/tech/node-js-logo.svg',
+      image: '/aws-bucket/tech/node-js-logo.svg',
       content: 'I motsetning til andre systemer som bruker tid og minne for å håndtere oppgaver over flere parallelle prosesser, så kjører Node i en tråd, men bruker et tilbakekall for å si ifra når en oppgave er ferdig. Dette gjør at økt trafikk og belastning ikke låser unødvendige ressurser, samtidig som den enkelt kan skalere opp til antall kjerner som er tilgjennelig på maskinvaren.\n\nNodeJS brukes typisk for utvikling av webservices som skal levere data til eksterne mottakere, egne frontend-applikasjoner og som server-delen i webapplikasjoner som trenger serverside-rendering for SEO og raskest mulig initiell første-visning.',
       type: 'tech'
     },
@@ -186,7 +186,7 @@ module.exports = {
       title: 'React JS',
       subTitle: 'Visnings-rammeverk for moderne applikasjoner',
       lead: 'ReactJS ble utviklet av Facebook for å løse de utfordringene en nettapplikajson vil måte på etterhvert som størrelse og kompleksitet øker. Og den løser dette gjennom å selv ta hånd om hvilke deler av grensesnittet i applikasjonen som trenger å oppdateres og hvordan dette kan gjøres mest effektivt i brukerens nettleser.',
-      image: 'https://s3.eu-central-1.amazonaws.com/metabits-static/tech/react-js-logo.svg',
+      image: '/aws-bucket/tech/react-js-logo.svg',
       content: 'En utbredt måte å løse applikasjoner på nå for tiden er at man har en frontend applikasjon som har som ansvar å vise/interaktere med sluttbruker og et backend API som snakker med de underliggende tjenestene som applikasjonen har behov for for å hente / sende data til. Dette gir sømløs opplevelse for bruker, samtidig som backend kan kobles opp mot ulike tjenester, databaser og verktøy eller som egner seg best for å håndtere den delen av data-behovet en applikasjon har.',
       type: 'tech'
     },
@@ -195,7 +195,7 @@ module.exports = {
       title: 'WordPress',
       subTitle: 'Den populære publiseringsløsningen med mange muligheter',
       lead: 'Fra den ble lansert som et blogverktøy på tidlig 2000-tallet, har den utviklet seg til å bli en fullblods publiseringsløsning, som gjennom en plugin-arkitektur og et malsystem åpner opp for skreddersydde løsninger som krever lite ressurser og er enkle å bruke.',
-      image: 'https://s3.eu-central-1.amazonaws.com/metabits-static/tech/wordpress.svg',
+      image: '/aws-bucket/tech/wordpress.svg',
       content: '## Unike Wordpress maler og plugins\n\nGjennom et fleksibelt malsystem utvikler vi skreddersydde designmaler hvor alt er redigerbart via det brukervennlige grensesnittet i Wordpress. Behov for spesiell funksjonalitet kan enten løses ved at dette utvikles direkte inne i malen eller et Wordpress-plugin som kan brukes i alle typer maler.\n\n## Wordpress MU - flere nettsider i én\n\nWordpress MU - flerbrukerversjonen av Wordpress lar dere opprette flere uavhenging nettsider på et domene. Gjør det enkelt å opprette f eks kampanjesider og lignende underlagt deres hovednettside.\n\n## Fordeler med Wordpress\n\n*   Kjent for sitt enkle og brukervennlig grensesnitt demokratiserer arbeidet med innholdet på nettsiden\n*   En av de mest utbredte plattformene gjør at det finnes en mengde 3 parts innstikk som gir siden utvidet funksjonalitet\n*   En god plugin-arkitektur gjør løsningen velegnet for spesial-utvikling og annen skreddersøm\n*   Ut av boksen veldig gode verktøy for å publisere innlegg, sider og kommentarer',
       type: 'tech'
     }
@@ -205,7 +205,7 @@ module.exports = {
       id: 'banner-1',
       title: 'Utvikling av nettsider og applikasjoner',
       lead: 'Planlegger dere en ny nettside eller et redesign av den eksisterende? Ta kontakt for å se hva vi kan gjøre!',
-      image: 'https://s3.eu-central-1.amazonaws.com/metabits-static/banner/home.jpg',
+      image: '/aws-bucket/banner/home.jpg',
       linkText: 'Se referanser',
       uri: '/referanser'
     }
