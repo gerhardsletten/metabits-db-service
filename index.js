@@ -5,7 +5,7 @@ const compression = require('compression')
 
 console.log(jsonGraphQLServer)
 
-const port = parseInt(process.env.PORT, 10) || 3310
+const port = parseInt(process.env.PORT, 10) || 3000
 
 const server = express()
 server.use(compression())
